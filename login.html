@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login — Luxury Car Rentals</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url('assets/backgrounds/back9.jpg');">
+
+<!-- Navigation -->
+<nav class="navbar">
+  <div class="nav-left">
+    <img src="assets/logo.jpg" alt="Logo" class="navbar-logo">
+    <span class="nav-title">Luxury Car Rentals</span>
+  </div>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="cars.html">Cars</a></li>
+    <li><a href="booking.html">Booking</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="offers.html">Offers</a></li>
+    <li><a href="faq.html">FAQ</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="login.html" class="active">Login</a></li>
+  </ul>
+</nav>
+
+<!-- Login Section -->
+<section class="login-section container reveal">
+  <h1 class="reveal">Login</h1>
+  <p class="reveal">Access your account to book or manage your luxury car rentals.</p>
+
+  <form class="login-form reveal">
+    <label class="reveal" for="email">Email:</label>
+    <input class="reveal" type="email" id="email" name="email" placeholder="Enter your email" required>
+
+    <label class="reveal" for="password">Password:</label>
+    <input class="reveal" type="password" id="password" name="password" placeholder="Enter your password" required>
+
+    <button class="btn reveal" type="submit">Login</button>
+  </form>
+
+  <p class="reveal">Don't have an account? <a href="signup.html">Sign up here</a></p>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer reveal">
+  © <span id="year"></span> Luxury Car Rentals
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

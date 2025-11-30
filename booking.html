@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking — Luxury Car Rentals</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url('assets/backgrounds/back3.jpg');">
+
+<!-- Navigation -->
+<nav class="navbar">
+  <div class="nav-left">
+    <img src="assets/logo.jpg" alt="Logo" class="navbar-logo">
+    <span class="nav-title">Luxury Car Rentals</span>
+  </div>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="cars.html">Cars</a></li>
+    <li><a href="booking.html" class="active">Booking</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="offers.html">Offers</a></li>
+    <li><a href="faq.html">FAQ</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="login.html">Login</a></li>
+  </ul>
+</nav>
+
+<!-- Booking Section -->
+<section class="booking-section container reveal">
+  <h1 class="reveal">Book Your Luxury Car</h1>
+  <p class="reveal">Fill in the form below to rent your preferred luxury car.</p>
+
+  <form class="booking-form reveal">
+    <label class="reveal" for="name">Full Name:</label>
+    <input class="reveal" type="text" id="name" name="name" placeholder="Your name" required>
+
+    <label class="reveal" for="email">Email:</label>
+    <input class="reveal" type="email" id="email" name="email" placeholder="Your email" required>
+
+    <label class="reveal" for="car">Select Car:</label>
+    <select class="reveal" id="car" name="car" required>
+      <option value="">--Choose a car--</option>
+      <option value="car1">Car 1</option>
+      <option value="car2">Car 2</option>
+      <option value="car3">Car 3</option>
+      <option value="car4">Car 4</option>
+      <option value="car5">Car 5</option>
+      <option value="car6">Car 6</option>
+      <option value="car7">Car 7</option>
+      <option value="car8">Car 8</option>
+      <option value="car9">Car 9</option>
+      <option value="car10">Car 10</option>
+      <option value="car11">Car 11</option>
+      <option value="car12">Car 12</option>
+      <option value="car13">Car 13</option>
+      <option value="car14">Car 14</option>
+      <option value="car15">Car 15</option>
+    </select>
+
+    <label class="reveal" for="date">Select Date:</label>
+    <input class="reveal" type="date" id="date" name="date" required>
+
+    <button class="btn reveal" type="submit">Book Now</button>
+  </form>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+  © <span id="year"></span> Luxury Car Rentals
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
